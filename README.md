@@ -28,7 +28,7 @@ A small RAG (Retrieval-Augmented Generation) agent built on OpenAI-compatible lo
 
 ```sh
 python -m venv .venv && source .venv/bin/activate
-pip install openai pydantic sqlalchemy "psycopg[binary]" valkey python-dotenv
+pip install -r requirements.txt
 cp .env.example .env   # then edit values
 ```
 
